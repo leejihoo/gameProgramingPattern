@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 432d97ff3227af14ab9e65031f6ff656
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tilemap: {instanceID: 0}
+  - gressTile: {fileID: 11400000, guid: 3489322ded449a641a8ae85e5f580415, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
