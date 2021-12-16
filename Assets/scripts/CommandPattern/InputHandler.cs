@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InputHandler : MonoBehaviour
+public class InputHandler 
 {
     private Command buttonRight_ = new MoveRightCommand();
     private Command buttonUp_ = new MoveUpCommand();
