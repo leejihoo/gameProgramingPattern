@@ -18,6 +18,7 @@ public class GameActor : MonoBehaviour
     public int currentHp = 100;
     public int maxStamina = 5;
     public int currentStamina = 0;
+
     public UnityEvent playerHpChaged;
     public UnityEvent playerStaminaChaged;
     public bool staminaRecoveryDelay = false;

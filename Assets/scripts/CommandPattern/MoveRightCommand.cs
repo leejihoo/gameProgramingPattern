@@ -6,6 +6,6 @@ public class MoveRightCommand : Command
 {
     public override void Execute(GameObject actor)
     {
-        actor.GetComponent<GameActor>().MoveRight();
+        actor.GetComponent<GameActorForStatePattern>().MoveRight();
     }
 }

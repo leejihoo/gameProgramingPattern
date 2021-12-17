@@ -69,10 +69,18 @@
     <Compile Include="Assets\scripts\CommandPattern\InputHandler.cs" />
     <Compile Include="Assets\scripts\CommandPattern\MoveLeftCommand.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\EntityRenderer.cs" />
+    <Compile Include="Assets\scripts\Prototype Pattern\Spawner.cs" />
     <Compile Include="Assets\scripts\CommandPattern\Command.cs" />
     <Compile Include="Assets\scripts\FlyWeightPattern\gressTile.cs" />
     <Compile Include="Assets\scripts\FlyWeightPattern\FlyweightUse.cs" />
-    <Compile Include="Assets\scripts\Prototype Pattern\Spawner.cs" />
+    <Compile Include="Assets\scripts\StatePattern\GameActorState.cs" />
+    <Compile Include="Assets\scripts\StatePattern\GameActorForStatePattern.cs" />
+    <Compile Include="Assets\scripts\StatePattern\MoveLeftState.cs" />
+    <Compile Include="Assets\scripts\StatePattern\MoveRightState.cs" />
+    <Compile Include="Assets\scripts\StatePattern\MoveUpState.cs" />
+    <Compile Include="Assets\scripts\StatePattern\MoveDownState.cs" />
+    <Compile Include="Assets\scripts\StatePattern\AttackState.cs" />
+    <Compile Include="Assets\scripts\StatePattern\IdleState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TileSprite1\License.txt" />

@@ -6,7 +6,7 @@ public class MoveUpCommand : Command
 {
     public override void Execute(GameObject actor)
     {
-        actor.GetComponent<GameActor>().MoveUp();
+        actor.GetComponent<GameActorForStatePattern>().MoveUp();
 
     }
 }

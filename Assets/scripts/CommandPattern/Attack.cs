@@ -6,7 +6,7 @@ public class Attack : Command
 {
     public override void Execute(GameObject actor)
     {
-        actor.GetComponent<GameActor>().Attack();
+        actor.GetComponent<GameActorForStatePattern>().Attack();
 
     }
 }
