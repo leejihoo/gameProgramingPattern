@@ -62,7 +62,9 @@
     <Compile Include="Assets\scripts\FlyWeightPattern\waterTile.cs" />
     <Compile Include="Assets\scripts\CommandPattern\GameActor.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\SortingOrderUpdater.cs" />
+    <Compile Include="Assets\scripts\ObserverPattern\HpBar.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\TextureController.cs" />
+    <Compile Include="Assets\scripts\ObserverPattern\StaminaBar.cs" />
     <Compile Include="Assets\scripts\CommandPattern\MoveDownCommand.cs" />
     <Compile Include="Assets\scripts\CommandPattern\InputHandler.cs" />
     <Compile Include="Assets\scripts\CommandPattern\MoveLeftCommand.cs" />
@@ -70,8 +72,7 @@
     <Compile Include="Assets\scripts\CommandPattern\Command.cs" />
     <Compile Include="Assets\scripts\FlyWeightPattern\gressTile.cs" />
     <Compile Include="Assets\scripts\FlyWeightPattern\FlyweightUse.cs" />
-    <Compile Include="Assets\scripts\ObserverPattern\HpBar.cs" />
-    <Compile Include="Assets\scripts\ObserverPattern\StaminaBar.cs" />
+    <Compile Include="Assets\scripts\Prototype Pattern\Spawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TileSprite1\License.txt" />

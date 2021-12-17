@@ -24,7 +24,8 @@ public class GameActor : MonoBehaviour
     public bool aAttackDelay = false;
     void Start()
     {
-        
+
+       
     }
 
     // Update is called once per frame
@@ -130,5 +131,11 @@ public class GameActor : MonoBehaviour
         Debug.Log("°ø°Ýµô·¹ÀÌ");
         yield return new WaitForSeconds(1f);
         aAttackDelay = false;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("OnCollisionEnter");
+        Destroy(this.gameObject);
     }
 }
