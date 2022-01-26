@@ -6,6 +6,6 @@ public class NullCommand : Command
 {
     public override void Execute(GameObject actor)
     {
-        actor.GetComponent<GameActorForStatePattern>().Idle();
+        actor.GetComponent<GameActor>().Idle();
     }
 }

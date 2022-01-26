@@ -134,9 +134,9 @@ public class GameActor : MonoBehaviour
         aAttackDelay = false;
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log("OnCollisionEnter");
-        Destroy(this.gameObject);
-    }
+    //void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    Debug.Log("OnCollisionEnter");
+    //    Destroy(this.gameObject);
+    //}
 }

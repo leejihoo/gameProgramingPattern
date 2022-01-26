@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/DubleBufferPattern.unity
+    guid: 64b0312a469094d42a27092f9623fa86
+  - enabled: 1
+    path: Assets/Scenes/DubleBufferPatternLoadingScene.unity
+    guid: 69a3bb2e08a8d4d4583dd394defddb49
+  - enabled: 1
+    path: Assets/Scenes/DubleBufferPatternPlayScene.unity
+    guid: 7b49672bc340fe44b9f370ef66668bfe
   m_configObjects: {}

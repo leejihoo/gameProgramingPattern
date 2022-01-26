@@ -6,7 +6,7 @@ public class MoveDownCommand : Command
 {
     public override void Execute(GameObject actor)
     {
-        actor.GetComponent<GameActorForStatePattern>().MoveDown();
+        actor.GetComponent<GameActor>().MoveDown();
 
     }
 }
